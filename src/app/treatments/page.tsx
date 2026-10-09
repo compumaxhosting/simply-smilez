@@ -39,7 +39,7 @@ export default function TreatmentsPage() {
               <Reveal key={t.slug} delay={(i % 3) * 0.06}>
                 <Link
                   href={`/treatments/${t.slug}`}
-                  className="group flex h-full flex-col overflow-hidden rounded-[3px] border border-charcoal/12 bg-porcelain transition-all hover:border-teal/35 hover:shadow-[0_30px_60px_-45px_rgba(18,59,103,0.8)]"
+                  className="group flex h-full flex-col overflow-hidden rounded-[3px] border border-charcoal/12 bg-porcelain transition-all hover:border-teal/35 hover:shadow-[0_30px_60px_-45px_rgba(9,47,50,0.8)]"
                 >
                   <span className="relative block aspect-[16/10] w-full overflow-hidden bg-ivory">
                     {/* eslint-disable-next-line @next/next/no-img-element */}

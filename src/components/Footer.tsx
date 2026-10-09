@@ -66,7 +66,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <nav aria-label="Footer" className="grid gap-10 sm:grid-cols-3 lg:col-span-8">
+          <nav aria-label="Footer" className="grid gap-6 sm:grid-cols-3 lg:col-span-8">
             <div>
               <p className="label-xs text-champagne">Explore</p>
               <ul className="mt-4 space-y-2.5">

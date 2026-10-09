@@ -248,7 +248,7 @@ export default function AppointmentForm({ id = "enquiry" }: { id?: string }) {
             }}
             aria-invalid={!!errors.consent}
             aria-describedby={errors.consent ? "e-consent" : undefined}
-            className="mt-1 h-4 w-4 shrink-0 accent-[#1769AA]"
+            className="mt-1 h-4 w-4 shrink-0 accent-[#105D60]"
           />
           <span>
             I agree that Simply Smilez Dental may contact me about this enquiry by phone, WhatsApp

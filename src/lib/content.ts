@@ -46,10 +46,9 @@ export const nav = [
   { label: "Home", href: "/" },
   { label: "About", href: "/about" },
   { label: "Treatments", href: "/treatments" },
-  { label: "Our Doctors", href: "/doctors" },
+  { label: "Doctors", href: "/doctors" },
   { label: "Gallery", href: "/gallery" },
   { label: "Testimonials", href: "/testimonials" },
-  { label: "Contact", href: "/contact" },
 ];
 
 export type Treatment = {

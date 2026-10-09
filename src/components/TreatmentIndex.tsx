@@ -40,7 +40,7 @@ export default function TreatmentIndex({ compact = false }: { compact?: boolean 
             </span>
 
             {/* the photograph that slides in and overlaps the type */}
-            <span className="pointer-events-none absolute right-16 top-1/2 z-20 hidden h-[168px] w-[280px] -translate-y-1/2 translate-x-10 overflow-hidden opacity-0 shadow-[0_30px_60px_-30px_rgba(18,59,103,0.55)] transition-all duration-500 ease-[cubic-bezier(.22,.61,.36,1)] group-hover:translate-x-0 group-hover:opacity-100 group-focus-visible:translate-x-0 group-focus-visible:opacity-100 lg:block">
+            <span className="pointer-events-none absolute right-16 top-1/2 z-20 hidden h-[168px] w-[280px] -translate-y-1/2 translate-x-10 overflow-hidden opacity-0 shadow-[0_30px_60px_-30px_rgba(9,47,50,0.55)] transition-all duration-500 ease-[cubic-bezier(.22,.61,.36,1)] group-hover:translate-x-0 group-hover:opacity-100 group-focus-visible:translate-x-0 group-focus-visible:opacity-100 lg:block">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={t.image}

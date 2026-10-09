@@ -565,7 +565,7 @@ function BentoCard({
   return (
     <Link
       href={href}
-      className="group relative flex h-full min-h-[260px] flex-col justify-between overflow-hidden rounded-[3px] border border-charcoal/12 bg-porcelain p-6 transition-all hover:border-teal/40 hover:shadow-[0_24px_50px_-40px_rgba(18,59,103,0.7)] sm:p-7"
+      className="group relative flex h-full min-h-[260px] flex-col justify-between overflow-hidden rounded-[3px] border border-charcoal/12 bg-porcelain p-6 transition-all hover:border-teal/40 hover:shadow-[0_24px_50px_-40px_rgba(9,47,50,0.7)] sm:p-7"
     >
       <span className="flex items-start justify-between gap-4">
         <span className="label-xs text-champagne">{t.eyebrow}</span>

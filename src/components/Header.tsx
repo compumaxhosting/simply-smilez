@@ -59,7 +59,7 @@ export default function Header() {
         <div className="mx-auto flex h-[72px] max-w-[1500px] items-center justify-between gap-6 px-5 sm:px-8">
           <Link href="/" className="group flex items-center gap-3">
             {/* authentic logo on a porcelain plate — legible in both header states */}
-            <span className="flex items-center gap-3 rounded-[3px] bg-porcelain px-3 py-2 shadow-[0_1px_0_rgba(32,40,40,0.12)] transition-shadow group-hover:shadow-[0_6px_18px_-8px_rgba(18,59,103,0.5)]">
+            <span className="flex items-center gap-3 rounded-[3px] bg-porcelain px-3 py-2 shadow-[0_1px_0_rgba(32,40,40,0.12)] transition-shadow group-hover:shadow-[0_6px_18px_-8px_rgba(9,47,50,0.5)]">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src="/images/logo-3.webp" alt="Simply Smilez Dental" className="h-7 w-auto" />
             </span>
