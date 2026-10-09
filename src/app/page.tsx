@@ -26,7 +26,7 @@ export default function HomePage() {
       <section className="relative overflow-hidden bg-teal">
         <div className="absolute inset-0 lg:left-[44%]">
           <Image
-            src="/images/susheel3.webp"
+            src="/images/heroimg.png"
             alt="A patient smiling alongside a dentist after a consultation"
             fill
             priority
@@ -233,8 +233,6 @@ export default function HomePage() {
 
           {/* Compact, asymmetric treatment grid */}
           <div className="mt-8 grid grid-cols-1 items-stretch gap-3 sm:mt-10 sm:grid-cols-2 sm:gap-4 lg:grid-cols-12 lg:gap-4">
-            
-
             <Reveal delay={0.04} className="min-w-0 lg:col-span-4">
               <BentoCard
                 t={featureC}

@@ -39,7 +39,10 @@ export default function Header() {
       <div className="overflow-hidden border-b border-white/10 bg-teal">
         <div className="marquee-track flex w-max gap-10 py-2">
           {Array.from({ length: 8 }).map((_, i) => (
-            <span key={i} className="label-xs flex items-center gap-3 text-mint/80">
+            <span
+              key={i}
+              className="label-xs flex items-center gap-3 text-mint/80"
+            >
               <span className="text-champagne">✦</span>
               {site.offer}
               <span className="text-champagne">✦</span>
@@ -59,9 +62,13 @@ export default function Header() {
         <div className="mx-auto flex h-[72px] max-w-[1500px] items-center justify-between gap-6 px-5 sm:px-8">
           <Link href="/" className="group flex items-center gap-3">
             {/* authentic logo on a porcelain plate — legible in both header states */}
-            <span className="flex items-center gap-3 rounded-[3px] bg-porcelain px-3 py-2 shadow-[0_1px_0_rgba(32,40,40,0.12)] transition-shadow group-hover:shadow-[0_6px_18px_-8px_rgba(9,47,50,0.5)]">
+            <span className="flex items-center gap-3 rounded-[3px] px-3 py-2 shadow-[0_1px_0_rgba(32,40,40,0.12)] transition-shadow group-hover:shadow-[0_6px_18px_-8px_rgba(9,47,50,0.5)]">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/images/logo-3.webp" alt="Simply Smilez Dental" className="h-7 w-auto" />
+              <img
+                src="/images/logo-main.png"
+                alt="Simply Smilez Dental"
+                className="h-14 w-auto"
+              />
             </span>
             <span
               className={`label-xs hidden leading-tight transition-colors xl:block ${
@@ -74,7 +81,10 @@ export default function Header() {
             </span>
           </Link>
 
-          <nav aria-label="Primary" className="hidden items-center gap-7 lg:flex">
+          <nav
+            aria-label="Primary"
+            className="hidden items-center gap-7 lg:flex"
+          >
             {nav.map((item) => (
               <Link
                 key={item.href}
@@ -107,7 +117,9 @@ export default function Header() {
               target="_blank"
               rel="noopener noreferrer"
               className={`hidden items-center gap-2 text-[13px] font-medium transition-colors md:flex ${
-                scrolled ? "text-charcoal/70 hover:text-teal" : "text-porcelain/80 hover:text-aqua"
+                scrolled
+                  ? "text-charcoal/70 hover:text-teal"
+                  : "text-porcelain/80 hover:text-aqua"
               }`}
             >
               <Phone className="h-3.5 w-3.5" strokeWidth={1.6} />
@@ -128,7 +140,9 @@ export default function Header() {
               onClick={() => setOpen(true)}
               aria-label="Open menu"
               className={`inline-flex h-11 w-11 items-center justify-center rounded-full border transition-colors lg:hidden ${
-                scrolled ? "border-charcoal/20 text-teal" : "border-white/30 text-porcelain"
+                scrolled
+                  ? "border-charcoal/20 text-teal"
+                  : "border-white/30 text-porcelain"
               }`}
             >
               <Menu className="h-5 w-5" strokeWidth={1.5} />
@@ -157,7 +171,10 @@ export default function Header() {
                 <X className="h-5 w-5" strokeWidth={1.5} />
               </button>
             </div>
-            <nav aria-label="Mobile" className="flex-1 overflow-y-auto px-5 pb-8">
+            <nav
+              aria-label="Mobile"
+              className="flex-1 overflow-y-auto px-5 pb-8"
+            >
               <ul className="border-t border-white/10">
                 {nav.map((item, i) => (
                   <motion.li
