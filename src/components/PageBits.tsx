@@ -8,10 +8,12 @@ export function Eyebrow({ children, tone = "light" }: { children: ReactNode; ton
   return (
     <span
       className={`label-xs inline-flex items-center gap-3 ${
-        tone === "dark" ? "text-mint/70" : "text-champagne"
+        tone === "dark" ? "text-champagne" : "text-champagne"
       }`}
     >
-      <span className={`h-px w-8 ${tone === "dark" ? "bg-champagne/70" : "bg-champagne"}`} />
+      <span
+        className={`h-px w-8 ${tone === "dark" ? "bg-champagne/70" : "bg-champagne"}`}
+      />
       {children}
     </span>
   );

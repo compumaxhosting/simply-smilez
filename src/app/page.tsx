@@ -26,7 +26,7 @@ export default function HomePage() {
       <section className="relative overflow-hidden bg-teal">
         <div className="absolute inset-0 lg:left-[44%]">
           <Image
-            src="/images/heroimg.png"
+            src="/images/hero.png"
             alt="A patient smiling alongside a dentist after a consultation"
             fill
             priority
@@ -44,7 +44,7 @@ export default function HomePage() {
         <div className="relative mx-auto flex min-h-[100svh] max-w-[1500px] flex-col justify-center px-5 pb-16 pt-[150px] sm:px-8 lg:pb-24 lg:pt-[185px]">
           <div className="lg:max-w-[64%]">
             <Eyebrow tone="dark">
-              Dental clinic · Shaikpet, Hyderabad · est. {site.founded}
+              Dental clinic ·Shaikpet, Hyd ·est. {site.founded}
             </Eyebrow>
 
             <h1 className="display mt-7 text-[clamp(2.7rem,7.4vw,6.2rem)] leading-[0.94] text-porcelain">

@@ -54,27 +54,21 @@ export default function Header() {
 
       <header
         className={`transition-all duration-500 ${
-          scrolled
-            ? "border-b border-charcoal/10 bg-porcelain/85 backdrop-blur-xl"
-            : "border-b border-transparent bg-transparent"
+          scrolled ? "bg-porcelain/85 backdrop-blur-xl" : " bg-porcelain/85"
         }`}
       >
         <div className="mx-auto flex h-[72px] max-w-[1500px] items-center justify-between gap-6 px-5 sm:px-8">
           <Link href="/" className="group flex items-center gap-3">
             {/* authentic logo on a porcelain plate — legible in both header states */}
-            <span className="flex items-center gap-3 rounded-[3px] px-3 py-2 shadow-[0_1px_0_rgba(32,40,40,0.12)] transition-shadow group-hover:shadow-[0_6px_18px_-8px_rgba(9,47,50,0.5)]">
+            <span className="flex items-center gap-3 rounded-[3px] px-3 py-2">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/images/logo-main.png"
+                src="/images/logo-3.webp"
                 alt="Simply Smilez Dental"
-                className="h-14 w-auto"
+                className="h-9 w-auto"
               />
             </span>
-            <span
-              className={`label-xs hidden leading-tight transition-colors xl:block ${
-                scrolled ? "text-charcoal/55" : "text-porcelain/80"
-              }`}
-            >
+            <span className="label-xs hidden leading-tight text-charcoal/65 transition-colors xl:block">
               Shaikpet
               <br />
               Hyderabad
@@ -90,13 +84,9 @@ export default function Header() {
                 key={item.href}
                 href={item.href}
                 className={`relative py-2 text-[13.5px] font-medium tracking-[0.02em] transition-colors ${
-                  scrolled
-                    ? isActive(item.href)
-                      ? "text-teal"
-                      : "text-charcoal/70 hover:text-teal"
-                    : isActive(item.href)
-                      ? "text-aqua"
-                      : "text-porcelain/85 hover:text-aqua"
+                  isActive(item.href)
+                    ? "text-emerald"
+                    : "text-teal/85 hover:text-emerald"
                 }`}
               >
                 {item.label}
@@ -116,11 +106,7 @@ export default function Header() {
               href={site.whatsapp}
               target="_blank"
               rel="noopener noreferrer"
-              className={`hidden items-center gap-2 text-[13px] font-medium transition-colors md:flex ${
-                scrolled
-                  ? "text-charcoal/70 hover:text-teal"
-                  : "text-porcelain/80 hover:text-aqua"
-              }`}
+              className="hidden items-center gap-2 text-[13px] font-medium text-charcoal/70 transition-colors hover:text-emerald md:flex"
             >
               <Phone className="h-3.5 w-3.5" strokeWidth={1.6} />
               {site.phones[0].label}
@@ -142,7 +128,7 @@ export default function Header() {
               className={`inline-flex h-11 w-11 items-center justify-center rounded-full border transition-colors lg:hidden ${
                 scrolled
                   ? "border-charcoal/20 text-teal"
-                  : "border-white/30 text-porcelain"
+                  : "border-charcoal/20 text-teal"
               }`}
             >
               <Menu className="h-5 w-5" strokeWidth={1.5} />
