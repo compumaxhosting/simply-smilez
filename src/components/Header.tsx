@@ -118,7 +118,7 @@ export default function Header() {
               className="group relative hidden overflow-hidden rounded-full bg-teal px-5 py-3 text-[12px] font-semibold uppercase tracking-[0.16em] text-porcelain transition-all hover:bg-emerald sm:inline-flex"
             >
               <span className="relative z-10 flex items-center gap-2">
-                Book an appointment
+                Contact
                 <ArrowUpRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
               </span>
               <span className="absolute inset-0 -translate-x-full bg-emerald transition-transform duration-500 group-hover:translate-x-0" />
@@ -203,7 +203,7 @@ export default function Header() {
                   href="/contact#enquiry"
                   className="rounded-full bg-porcelain px-5 py-3 text-center text-[13px] font-semibold uppercase tracking-[0.14em] text-teal"
                 >
-                  Book an appointment
+                  Contact
                 </Link>
               </div>
             </nav>

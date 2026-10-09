@@ -316,7 +316,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-      ```
       {/* ── D. Doctors ─────────────────────────────────────── */}
       <section className="grain relative overflow-hidden bg-porcelain">
         <div className="mx-auto max-w-[1500px] px-5 py-20 sm:px-8 lg:py-28">
