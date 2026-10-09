@@ -220,7 +220,6 @@ export default function HomePage() {
         </div>
       </section>
       {/* ── C. Services showcase ───────────────────────────── */}
-      ```tsx
       {/* ── C. Services showcase ───────────────────────────── */}
       <section className="relative overflow-hidden bg-ivory">
         <div className="mx-auto max-w-[1500px] px-4 py-12 sm:px-6 sm:py-14 lg:px-8 lg:py-16">
